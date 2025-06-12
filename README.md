@@ -22,7 +22,7 @@ Built entirely from iPad using GitHub Codespaces, AWS CLI, and CloudFormation.
 - Visual dashboards for access monitoring
 
 ## 🧠 Lessons Learned
-(Leave space for your own reflections)
+
 
 ## 📁 File Structure
-(You’ll update this after initial build)
+
