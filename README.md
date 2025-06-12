@@ -1,28 +1,39 @@
-# AWS Zero Trust Lab (Case Study)
+# AWS Zero Trust Lab: A Case Study
 
-## Overview
-This case study explores how to implement Zero Trust principles in AWS using IAM roles, security groups, and centralized logging. The goal is to restrict access by identity, enforce least privilege, and track all access attempts in real-time.
+## 🎯 Project Goal
 
-Built entirely from iPad using GitHub Codespaces, AWS CLI, and CloudFormation.
+To design and deploy a secure AWS environment using Zero Trust principles. This includes strict identity-based access, segmented networking, and centralized logging for auditing.
 
-## 🔒 Zero Trust Goals
-- No implicit trust between components
-- All access requires explicit identity verification
-- Logs are centralized and queryable
+## 🔐 Key Principles
 
-## 🔧 What I Built
-- VPC with private and public subnets
+- No implicit trust between services
+- All actions require authenticated identity
+- All activity is logged and monitored
+
+## ⚙️ Tech Stack
+
+- AWS EC2, IAM, VPC, CloudTrail, CloudWatch
+- AWS CloudFormation (IaC)
+- GitHub Codespaces (iPad-based dev environment)
+- CLI tools (AWS CLI, jq)
+
+## 📐 Architecture Plan
+
+- Public + private subnets
 - Bastion host for controlled SSH access
-- IAM roles with scoped permissions
-- CloudWatch and S3 logging for all activity
+- IAM roles with least privilege
+- CloudTrail → S3 for log retention
 
-## 🚧 Coming Soon
-- Lambda-based alerting
-- API Gateway + role-based access
-- Visual dashboards for access monitoring
+## 🚧 Status
 
-## 🧠 Lessons Learned
+| Feature                       | Status  |
+|------------------------------|---------|
+| VPC Setup                    | ⏳       |
+| IAM Role Creation            | ⏳       |
+| Bastion Host Config          | ⏳       |
+| CloudTrail Logging           | ⏳       |
+| Access Restrictions Enforced | ⏳       |
 
+## 🧠 Notes & Reflections
 
-## 📁 File Structure
-
+See: `notes/reflections.md`
